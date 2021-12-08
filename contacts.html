@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+		<link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp">
+		<link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="css/libs.min.css">
+		<link rel="stylesheet" href="css/style.min.css">
+		<!--<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />-->
+		<title>Test page</title>
+	</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container container">
+		<a href="index.html" class="header__logo-wrapper"><img src="img/logo_white.svg" alt="Vesna" class="logo">
+		</a>
+		<div class="header__menu menu">
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+					<li class="menu__item"><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+					<li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+					<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+				</ul>
+				<div class="header__contacts_mobile">
+					<button id="consult-button-mobile" type="button" class="button button_white">+7 (921) 888 88
+						88</button>
+					<div class="header__label">Бесплатная консультация</div>
+				</div>
+			</nav>
+
+		</div>
+		<div class="header__contacts">
+			<button id="consult-button" type="button" class="button button_white">+7 (921) 888 88 88</button>
+			<div class="header__label">Бесплатная консультация</div>
+		</div>
+		<div class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</header>
+<div class="popup" id="popup-consult">
+	<div class="popup__container">
+		<div class="popup__body">
+			<div class="popup__title">Закажите консультацию</div>
+			<div class="popup__subtitle">Менеджер перезвонит Вам в ближайшее время</div>
+			<button class="popup__close"></button>
+			<form action="#" class="contact__form form">
+				<div class="form__field">
+					<input type="text" placeholder=" " class="form__input">
+					<label class="form__label">Имя</label>
+				</div>
+				<div class="form__field">
+					<input id="phone" type="tel" placeholder="+7(___) ___ __ __" class="form__input">
+				</div>
+				<div class="form__check">
+					<input id="checkbox" type="checkbox">
+					<label for="checkbox" class="form__text form__checkbox form__checkbox_green">
+						Я даю согласие на
+						обработку своих
+						<span>персональных
+							данных</span>
+					</label>
+				</div>
+				<div class="form__button">
+					<button type="submit" class="button button_green">Перезвоните мне</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+		<main class="page">
+			<div class="page__main-block main-block">
+				<div class="main-block__container main-block__container_center container">
+					<div class="main-block__text">
+						<h1 class="main-block__title">Контакты</h1>
+					</div>
+				</div>
+				<div class="main-block__image ibg">
+					<img src="img/index/project1.jpg" alt="Slide">
+				</div>
+			</div>
+			<div class="page__contact contact">
+				<div class="contact__container container container_slim">
+					<div class="contact__info">
+						<div class="contact__title">Свяжитесь с нами, чтобы проконсультироваться</div>
+						<div class="contact__text">
+							<div class="contact__item">Санкт-Петербург</div>
+							<a href="tel:+70001234567" class="contact__item">+7(000) 123 45 67</a>
+							<a href="mailto:info@.ru" class="contact__item">info@.ru</a>
+							<div class="contact__item"><a href="#" class="button button_green button_round"><img
+										src="img/instagram-fill.svg" alt="Instagram"></a></div>
+						</div>
+					</div>
+					<form action="#" class="contact__form form">
+						<div class="form__field">
+							<input type="text" placeholder=" " class="form__input">
+							<label class="form__label">Имя</label>
+						</div>
+						<div class="form__field">
+							<input type="email" placeholder=" " class="form__input">
+							<label class="form__label">Email</label>
+						</div>
+						<div class="form__field">
+							<input id="phone" type="tel" placeholder="+7(___) ___ __ __" class="form__input">
+						</div>
+						<div class="form__field">
+							<textarea placeholder=" " class="form__input" id="comment" cols="1000" rows="5"></textarea>
+							<label for="comment" class="form__label">Комментарий</label>
+						</div>
+						<div class="form__check">
+							<input id="checkbox" type="checkbox">
+							<label for="checkbox" class="form__text form__checkbox form__checkbox_green">
+								Я даю согласие на
+								обработку своих
+								<span>персональных
+									данных</span>
+							</label>
+						</div>
+						<div class="form__button">
+							<button type="submit" class="button button_green">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+	<div class="footer__top">
+		<div class="footer__container container">
+			<div class="footer__column">
+				<div class="footer__contacts contacts-footer">
+					<a href="tel:+70001234567" class="contacts-footer__item">+7(000) 123 45 67</a>
+					<a href="mailto:info@.ru" class="contacts-footer__item">info@.ru</a>
+				</div>
+			</div>
+			<div class="footer__column">
+				<a href="index.html" class="footer__logo-wrapper">
+					<img src="img/logo_white_footer.svg" alt="Vesna" class="logo">
+				</a>
+			</div>
+			<div class="footer__column">
+				<div class="footer__social social">
+					<a href="https://www.instagram.com/" class="social__link">
+						<img src="img/instagram-fill.svg" alt="instagram">
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="footer__bottom">
+		<div class="footer__container container">
+			<div class="footer__copyright">
+				<a href="#" class="footer__item"><span>© 2021 VESNA</span></a>
+
+				<a href="#" class="footer__item">Политика конфиденциальности</a>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
