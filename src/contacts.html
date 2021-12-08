@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"ru",
+"title":"Контакты",
+"description":"",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+	<div class="wrapper">
+		@@include('components/page-blocks/_header.html')
+		<main class="page">
+			<div class="page__main-block main-block">
+				<div class="main-block__container main-block__container_center container">
+					<div class="main-block__text">
+						<h1 class="main-block__title">Контакты</h1>
+					</div>
+				</div>
+				<div class="main-block__image ibg">
+					<img src="img/index/project1.jpg" alt="Slide">
+				</div>
+			</div>
+			<div class="page__contact contact">
+				<div class="contact__container container container_slim">
+					<div class="contact__info">
+						<div class="contact__title">Свяжитесь с нами, чтобы проконсультироваться</div>
+						<div class="contact__text">
+							<div class="contact__item">Санкт-Петербург</div>
+							<a href="tel:+70001234567" class="contact__item">+7(000) 123 45 67</a>
+							<a href="mailto:info@.ru" class="contact__item">info@.ru</a>
+							<div class="contact__item"><a href="#" class="button button_green button_round"><img
+										src="img/instagram-fill.svg" alt="Instagram"></a></div>
+						</div>
+					</div>
+					<form action="#" class="contact__form form">
+						<div class="form__field">
+							<input type="text" placeholder=" " class="form__input">
+							<label class="form__label">Имя</label>
+						</div>
+						<div class="form__field">
+							<input type="email" placeholder=" " class="form__input">
+							<label class="form__label">Email</label>
+						</div>
+						<div class="form__field">
+							<input type="tel" placeholder="+7(___) ___ __ __" class="form__input">
+						</div>
+						<div class="form__field">
+							<textarea placeholder=" " class="form__input" cols="1000" rows="5"></textarea>
+							<label class="form__label">Комментарий</label>
+						</div>
+						<label class="checkbox form__check">
+							<input class="checkbox__input" type="checkbox">
+							<span class="form__text checkbox__text checkbox__text checkbox__text_green">
+								Я даю согласие на
+								обработку своих
+								<span>персональных
+									данных</span>
+							</span>
+						</label>
+						<div class="form__button">
+							<button type="submit" class="button button_green">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		@@include('components/page-blocks/_footer.html')
+	</div>
+	@@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

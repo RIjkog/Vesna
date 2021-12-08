@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"ru",
+"title":"Vesna",
+"description":"",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+	<div class="wrapper">
+		@@include('components/page-blocks/_header.html')
+		<div class="popup" id="popup-callback">
+			<div class="popup__container">
+				<div class="popup__body">
+					<div class="popup__title">Обратный звонок</div>
+					<div class="popup__subtitle">Менеджер перезвонит Вам в ближайшее время</div>
+					<button class="popup__close"></button>
+					<form action="#" class="contact__form form">
+						<div class="form__field">
+							<input type="text" placeholder=" " class="form__input">
+							<label class="form__label">Имя</label>
+						</div>
+						<div class="form__field">
+							<input type="tel" placeholder="+7(___) ___ __ __" class="form__input">
+						</div>
+						<label class="checkbox form__check">
+							<input class="checkbox__input" type="checkbox">
+							<span class="form__text checkbox__text checkbox__text_green">
+								Я даю согласие на
+								обработку своих
+								<span>персональных
+									данных</span>
+							</span>
+						</label>
+						<div class="form__button">
+							<button type="submit" class="button button_green">Перезвоните мне</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<div class="page__main-block main-block">
+				<div class="main-block__container container">
+					<div class="main-block__text">
+						<div class="main-block__studio-name">Ландшафтная студия VESNA</div>
+						<h1 class="main-block__title">Создаем авторские ландшафты с вашим характером</h1>
+						<div class="main-block__subtitle">От идеи до полной реализации</div>
+					</div>
+				</div>
+				<div class="main-block__image ibg">
+					<img src="img/index/background_main.jpg" alt="Slide">
+				</div>
+			</div>
+			<div class="page__text-block text-block">
+				<div class="text-block__container container">
+					<div class="text-block__title title">Создаем не просто красивый сад с картинки,
+						<br><span>а место, куда захочется возвращаться</span>
+					</div>
+					<div class="text-block__subtitle">От проекта до ухода за садом – один подрядчик.<br>
+						Мы несем ответственность за все этапы работ. Ваш сад будет органичен и выполнен в одном стиле.
+						Мы делаем участок
+						практичным, безопасным и комфортным для всех членов семьи.
+						В работе мы используем современные и качественные материалы,
+						как залог долговечности производимых работ. Благодаря нашему подходу исключаются возможные
+						ошибки до начала строительных работ и предотвращаются непредвиденные расходы.
+					</div>
+				</div>
+			</div>
+			<div class="page__pictures pictures">
+				<div class="pictures__container container">
+					<div class="pictures__item">
+						<img src="img/index/picture1.jpg" alt="Photo">
+					</div>
+					<div class="pictures__item">
+						<img src="img/index/picture2.jpg" alt="Photo">
+					</div>
+					<div class="pictures__item">
+						<img src="img/index/picture3.jpg" alt="Photo">
+					</div>
+
+				</div>
+			</div>
+			<div class="page__features features">
+				<div class="features__container container">
+					<div class="features__header text-block">
+						<div class="text-block__container">
+							<div class="text-block__title"><span>Доверьте свой участок профессионалам -</span><br>
+								пусть они позаботятся о ландшафтном дизайне
+								и благоустройстве
+							</div>
+						</div>
+					</div>
+
+					<div class="features__body">
+						<div class="features__images">
+							<span class="features__description">Пример 3D-визуализации</span>
+							<div class="features__image features__image_big"><img src="img/index/feature-image1.jpg"
+									alt="Feature image">
+							</div>
+							<div class="features__image features__image_small">
+								<img src="img/index/feature-image2.jpg" alt="Feature image">
+							</div>
+						</div>
+						<div class="features__items">
+							<div class="features__item item-features">
+								<div class="item-features__icon"><img src="img/index/feature-icon.svg" alt="Icon"></div>
+								<div class="item-features__text">Вы оцените будущий ландшафт с помощью 3D-визуализации
+									и, если это требуется,
+									внесете изменения.</div>
+							</div>
+							<div class="features__item item-features">
+								<div class="item-features__icon"><img src="img/index/feature-icon.svg" alt="Icon"></div>
+								<div class="item-features__text">Вам не придется контролировать качество нашей работы:
+									отдыхайте и занимайтесь своими делами, пока специалисты технадзора
+									следят за процессом.</div>
+							</div>
+							<div class="features__item item-features">
+								<div class="item-features__icon"><img src="img/index/feature-icon.svg" alt="Icon"></div>
+								<div class="item-features__text">Вы подарите себе красивый и ухоженный сад, переложите
+									заботы по уходу на наши плечи и получите гарантию на все работы.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__services services">
+				<div class="services__container container">
+					<div class="services__title">Что мы делаем</div>
+					<div class="services__items">
+						<div class="services__item item-service">
+							<div class="item-service__icon"><img src="img/index/service-icon1.svg" alt="Service icon">
+							</div>
+							<div class="item-service__title">Проектирование</div>
+							<ul class="item-service__list">
+								<li class="item-service__list-item">Новый качественный подход к проектированию</li>
+								<li class="item-service__list-item">Детальная разработка всех инженерных разделов
+									проекта</li>
+								<li class="item-service__list-item">Расчет освещенности участка</li>
+								<li class="item-service__list-item">Реализация идей любой сложности</li>
+								<li class="item-service__list-item">Европейский подход</li>
+								<li class="item-service__list-item">Применение нестандартных современных идей и
+									технологий</li>
+
+							</ul>
+						</div>
+						<div class="services__item item-service">
+							<div class="item-service__icon"><img src="img/index/service-icon2.svg" alt="Service icon">
+							</div>
+							<div class="item-service__title">Озеленение</div>
+							<ul class="item-service__list">
+								<li class="item-service__list-item">Прямые поставки посадочного материала из лучших
+									европейских питомников</li>
+								<li class="item-service__list-item">Использование новейших технологий при посадке</li>
+								<li class="item-service__list-item">Новый качественный подход к созданию пространств
+								</li>
+								<li class="item-service__list-item">Европейские решения</li>
+								<li class="item-service__list-item">Длительная гарантия на все работы и посадочный
+									материал</li>
+								<li class="item-service__list-item">Сервисное обслуживание</li>
+
+							</ul>
+						</div>
+						<div class="services__item item-service">
+							<div class="item-service__icon"><img src="img/index/service-icon3.svg" alt="Service icon">
+							</div>
+							<div class="item-service__title">Благоустройство</div>
+							<ul class="item-service__list">
+								<li class="item-service__list-item">Все виды строительно-монтажных работ по
+									благоустройству</li>
+								<li class="item-service__list-item">Инновационные решения</li>
+								<li class="item-service__list-item">Длительная гарантия на все работы</li>
+								<li class="item-service__list-item">Строительство водоемов любой сложности</li>
+								<li class="item-service__list-item">Разработка индивидуальных малых архитектурных
+									объектов</li>
+							</ul>
+						</div>
+
+
+					</div>
+					<div class="services__button">
+						<a href="#" class="button button_green">Выбрать услугу</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="page__projects projects">
+				<div class="projects__container container">
+					<div class="projects__title">Наши проекты</div>
+					<div class="projects__items">
+						<a href="#" class="projects__item item-project">
+							<img src="img/index/project1.jpg" alt="Project">
+							<div class="item-project__description description description_white">
+								<div class="description__title">Lorem ipsum</div>
+								<div class="description__item">
+									<div class="description__label">Реализация</div>
+									<div class="description__value">2018-2019</div>
+								</div>
+								<div class="description__item">
+									<div class="description__label">Площадь</div>
+									<div class="description__value">35 соток</div>
+								</div>
+								<div class="description__item">
+									<div class="description__label">Месторасположение</div>
+									<div class="description__value">Ленинградская область</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="projects__item item-project"><img src="img/index/project2.jpg" alt="Project">
+							<div class="item-project__description description description_white">
+								<div class="description__title">Lorem ipsum</div>
+								<div class="description__item">
+									<div class="description__label">Реализация</div>
+									<div class="description__value">2018-2019</div>
+								</div>
+								<div class="description__item">
+									<div class="description__label">Площадь</div>
+									<div class="description__value">35 соток</div>
+								</div>
+								<div class="description__item">
+									<div class="description__label">Месторасположение</div>
+									<div class="description__value">Ленинградская область</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="projects__item item-project"><img src="img/index/project3.jpg" alt="Project">
+							<div class="item-project__description description description_white">
+								<div class="description__title">Lorem ipsum</div>
+								<div class="description__item">
+									<div class="description__label">Реализация</div>
+									<div class="description__value">2018-2019</div>
+								</div>
+								<div class="description__item">
+									<div class="description__label">Площадь</div>
+									<div class="description__value">35 соток</div>
+								</div>
+								<div class="description__item">
+									<div class="description__label">Месторасположение</div>
+									<div class="description__value">Ленинградская область</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="projects__item item-project"><img src="img/index/project4.jpg" alt="Project">
+							<div class="item-project__description description description_white">
+								<div class="description__title">Lorem ipsum</div>
+								<div class="description__item">
+									<div class="description__label">Реализация</div>
+									<div class="description__value">2018-2019</div>
+								</div>
+								<div class="description__item ">
+									<div class="description__label">Площадь</div>
+									<div class="description__value">35 соток</div>
+								</div>
+								<div class="description__item ">
+									<div class="description__label">Месторасположение</div>
+									<div class="description__value">Ленинградская область</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<a href="#" class="projects__button button button_white button_round">Все проекты
+						<span></span></a>
+					<div class="projects__button projects__button_bottom">
+						<a href="#" class="button button_green">Все проекты</a>
+					</div>
+				</div>
+			</div>
+			<div class="page__stages stages">
+				<div class="stages__container container">
+					<div class="stages__header text-block">
+						<div class="text-block__container">
+							<div class="text-block__title">4 шага до реализации проекта<br>
+								<span>вашей мечты</span>
+							</div>
+						</div>
+					</div>
+					<div class="stages__items">
+						<div class="stages__item item-stage">
+							<div class="item-stage__number">01</div>
+							<div class="item-stage__text">
+								<div class="item-stage__title">Расскажите нам, что вы хотите увидеть на своем участке
+								</div>
+								<div class="item-stage__subtitle">Побеседуйте с нашим специалистом. Он приедет к вам в
+									любое удобное время.</div>
+							</div>
+						</div>
+						<div class="stages__item item-stage">
+							<div class="item-stage__number">02</div>
+							<div class="item-stage__text">
+								<div class="item-stage__title">Оцените проект, который разработают наши специалисты, и
+									внесите изменения
+								</div>
+								<div class="item-stage__subtitle">Архитектор разработает проект ландшафтного дизайна и
+									сделает 3D-визуализацию.</div>
+							</div>
+						</div>
+						<div class="stages__item item-stage">
+							<div class="item-stage__number">03</div>
+							<div class="item-stage__text">
+								<div class="item-stage__title">Дождитесь окончания ландшафтных работ
+								</div>
+								<div class="item-stage__subtitle">Вы получите идеальный участок с хорошим дренажом,
+									мощеными дорожками и площадками, высаженными растениями — деревьями, кустарниками,
+									цветами и газоном.</div>
+							</div>
+						</div>
+						<div class="stages__item item-stage">
+							<div class="item-stage__number">04</div>
+							<div class="item-stage__text">
+								<div class="item-stage__title">Делегируйте уход за участком профессионалам
+								</div>
+								<div class="item-stage__subtitle">При необходимости мы будем приезжать регулярно и
+									следить за состоянием участка.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__advantages advantages">
+				<div class="advantages__container container">
+					<div class="advantages__title">Почему нас выбирают</div>
+					<div class="advantages__items">
+						<div class="advantages__item item-advantage">
+							<div class="item-advantage__icon"><img src="img/index/advantage-icon1.svg"
+									alt="Advantage icon"></div>
+							<div class="item-advantage__text">Создаем проекты, которые точно можно реализовать</div>
+						</div>
+						<div class="advantages__item item-advantage">
+							<div class="item-advantage__icon"><img src="img/index/advantage-icon2.svg"
+									alt="Advantage icon"></div>
+							<div class="item-advantage__text">Наши объекты легко эксплуатировать</div>
+						</div>
+						<div class="advantages__item item-advantage">
+							<div class="item-advantage__icon"><img src="img/index/advantage-icon3.svg"
+									alt="Advantage icon"></div>
+							<div class="item-advantage__text">Делаем с умом под любой бюджет</div>
+						</div>
+						<div class="advantages__item item-advantage">
+							<div class="item-advantage__icon"><img src="img/index/advantage-icon4.svg"
+									alt="Advantage icon"></div>
+							<div class="item-advantage__text">У нас высокое качество посадочного материала</div>
+						</div>
+						<div class="advantages__item item-advantage">
+							<div class="item-advantage__icon"><img src="img/index/advantage-icon5.svg"
+									alt="Advantage icon"></div>
+							<div class="item-advantage__text">Даем гарантию на все виды работ</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__reviews reviews">
+				<div class="reviews__container container">
+					<div class="reviews__title">Отзывы о нас</div>
+					<div class="reviews__slider">
+						<div class="reviews__slide review">
+							<div class="review__image ibg">
+								<img src="img/index/review-img.jpg" alt="Review image">
+							</div>
+							<div class="review__body">
+								<div class="review__icon">
+									<img src="img/index/service-icon2.svg" alt="Review icon">
+								</div>
+								<div class="review__author">Анна Смирнова</div>
+								<div class="review__description">Благоустройство сада в Агалатово</div>
+								<div class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu uis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu </div>
+							</div>
+						</div>
+						<div class="reviews__slide review">
+							<div class="review__image ibg">
+								<img src="img/index/review-img.jpg" alt="Review image">
+							</div>
+							<div class="review__body">
+								<div class="review__icon">
+									<img src="img/index/service-icon2.svg" alt="Review icon">
+								</div>
+								<div class="review__author">Анна Смирнова</div>
+								<div class="review__description">Благоустройство сада в Агалатово</div>
+								<div class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu uis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu </div>
+							</div>
+						</div>
+						<div class="reviews__slide review">
+							<div class="review__image ibg">
+								<img src="img/index/review-img.jpg" alt="Review image">
+							</div>
+							<div class="review__body">
+								<div class="review__icon">
+									<img src="img/index/service-icon2.svg" alt="Review icon">
+								</div>
+								<div class="review__author">Анна Смирнова</div>
+								<div class="review__description">Благоустройство сада в Агалатово</div>
+								<div class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu uis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu </div>
+							</div>
+						</div>
+						<div class="reviews__slide review">
+							<div class="review__image ibg">
+								<img src="img/index/review-img.jpg" alt="Review image">
+							</div>
+							<div class="review__body">
+								<div class="review__icon">
+									<img src="img/index/service-icon2.svg" alt="Review icon">
+								</div>
+								<div class="review__author">Анна Смирнова</div>
+								<div class="review__description">Благоустройство сада в Агалатово</div>
+								<div class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu uis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu </div>
+							</div>
+						</div>
+						<div class="reviews__slide review">
+							<div class="review__image ibg">
+								<img src="img/index/review-img.jpg" alt="Review image">
+							</div>
+							<div class="review__body">
+								<div class="review__icon">
+									<img src="img/index/service-icon2.svg" alt="Review icon">
+								</div>
+								<div class="review__author">Анна Смирнова</div>
+								<div class="review__description">Благоустройство сада в Агалатово</div>
+								<div class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu uis aute irure dolor in reprehenderit in voluptate velit esse cillum
+									dolore eu </div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__arrows">
+					</div>
+					<div class="reviews__dots"></div>
+				</div>
+			</div>
+			<div class="page__faq faq">
+				<div class="faq__container container">
+					<div class="faq__main">
+						<div class="faq__title">Часто задаваемые вопросы</div>
+						<div class="faq__question">
+							<details class="faq__question question-faq">
+								<summary class="question-faq__title">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit?
+									<span></span>
+								</summary>
+								<div class="question-faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e</div>
+							</details>
+							<details class="faq__question question-faq">
+								<summary class="question-faq__title">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit?
+									<span></span>
+								</summary>
+								<div class="question-faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e</div>
+							</details>
+							<details class="faq__question question-faq">
+								<summary class="question-faq__title">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit?
+									<span></span>
+								</summary>
+								<div class="question-faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e</div>
+							</details>
+							<details class="faq__question question-faq">
+								<summary class="question-faq__title">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit?
+									<span></span>
+								</summary>
+								<div class="question-faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e</div>
+							</details>
+							<details class="faq__question question-faq">
+								<summary class="question-faq__title">Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit?
+									<span></span>
+								</summary>
+								<div class="question-faq__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e</div>
+							</details>
+						</div>
+					</div>
+					<div class="faq__manual manual">
+						<div class="manual__title">Как выбрать
+							растения для сада?</div>
+						<div class="manual__subtitle">Пришлем инструкцию!</div>
+						<div class="manual__image">
+							<img src="img/index/journal.png" alt="Journal">
+						</div>
+						<form action="#" class="manual__form form">
+							<div class="form__field">
+
+								<input type="email" placeholder=" " class="form__input">
+								<label class="form__label">Ваш Email</label>
+							</div>
+							<label class="form__check checkbox">
+								<input class="checkbox__input " type="checkbox">
+								<span class="checkbox__text form__text checkbox__text_white">
+
+									Я даю согласие на
+									обработку своих<br>
+									<span>персональных
+										данных</span>
+
+								</span>
+							</label>
+							<div class="form__button">
+								<button type="submit" class="button button_green">Хочу инструкцию</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="page__callback callback">
+				<div class="callback__container container">
+					<div class="callback__text">
+						<div class="callback__title">Остались вопросы?</div>
+						<div class="callback__subtitle">Пригласите ландшафтного дизайнера на участок!</div>
+
+					</div>
+					<div class="callback__arrow"><img src="img/callback-arrow2.svg" alt="Arrow"></div>
+					<div class="callback__button">
+						<button id="callback-button" class="button button_green">Перезвоните мне</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('components/page-blocks/_footer.html')
+	</div>
+	@@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

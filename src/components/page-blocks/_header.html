@@ -1,0 +1,61 @@
+<header class="header">
+	<div class="header__container container">
+		<a href="index.html" class="header__logo-wrapper"><img src="img/logo_white.svg" alt="Vesna" class="logo">
+		</a>
+		<div class="header__menu menu">
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+					<li class="menu__item"><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+					<li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+					<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+				</ul>
+				<div class="header__contacts_mobile">
+					<button id="consult-button-mobile" type="button" class="button button_white">+7 (921) 888 88
+						88</button>
+					<div class="header__label">Бесплатная консультация</div>
+				</div>
+			</nav>
+
+		</div>
+		<div class="header__contacts">
+			<button id="consult-button" type="button" class="button button_white">+7 (921) 888 88 88</button>
+			<div class="header__label">Бесплатная консультация</div>
+		</div>
+		<div class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</header>
+<div class="popup" id="popup-consult">
+	<div class="popup__container">
+		<div class="popup__body">
+			<div class="popup__title">Закажите консультацию</div>
+			<div class="popup__subtitle">Менеджер перезвонит Вам в ближайшее время</div>
+			<button class="popup__close"></button>
+			<form action="#" class="contact__form form">
+				<div class="form__field">
+					<input type="text" placeholder=" " class="form__input">
+					<label class="form__label">Имя</label>
+				</div>
+				<div class="form__field">
+					<input id="phone" type="tel" placeholder="+7(___) ___ __ __" class="form__input">
+				</div>
+				<label class="checkbox form__check">
+					<input class="checkbox__input" type="checkbox">
+					<span class="form__text checkbox__text checkbox__text checkbox__text_green">
+						Я даю согласие на
+						обработку своих
+						<span>персональных
+							данных</span>
+					</span>
+				</label>
+				<div class="form__button">
+					<button type="submit" class="button button_green">Перезвоните мне</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
